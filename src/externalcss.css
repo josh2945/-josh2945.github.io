@@ -1,0 +1,152 @@
+/* *, *::before, *::after {
+    box-sizing: border-box;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    padding: 1%;
+}
+
+h2 {
+    color: rgba(255,255,255,.6);
+    text-align: center;
+    padding: 0% 0% 2% 0%;
+}
+
+body {
+    margin: 0 0;
+    background: linear-gradient(to right, #E70022, #FF3C00)
+}
+
+.calculator-grid {
+    display: grid;
+    margin-top: 2% 0%;
+    justify-content: center;
+    grid-template-columns: repeat(4,15%);
+    grid-template-rows:minmax(5%, auto);
+}
+
+.span-two {
+    grid-column: span 2;
+}
+
+.previous-operand {
+    color: rgba(255,255,255,.5);
+    font-size: 1.25rem;
+
+    grid-column: 1 / -1;
+    background: rgba(0,0,0,.75);
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding: 1%;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.current-operand {
+    color: rgba(255,255,255,.75);
+    font-size: 2rem;
+
+    grid-column: 1 / -1;
+    background: rgba(0,0,0,.75);
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding: 1%;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.calculator-grid > button {
+    cursor: pointer;
+    font-size: 2rem;
+    border: 1px solid white;
+    outline: none;
+    background-color: rgba(255,255,255,.66);
+}
+
+.calculator-grid > button:hover,
+.calculator-grid > button:focus {
+    background-color: rgba(255,255,255,.8);
+}
+
+img {
+    width: 175px;
+}
+
+
+.centerthis {
+    margin: 0 auto;
+}
+
+.cmu {
+    display: block;
+    margin: auto;
+    text-align: center;
+} */
+
+h1{
+    color: white;
+    text-align: center;
+    padding: 15px 0px;
+}
+
+h4 {
+    color: rgba(0, 0, 0, 0.33);
+    text-align: center;
+}
+
+body {
+    background: linear-gradient(to right, #E70022, #ff3c00);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.currencyrow {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cmu {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+img {
+    width: 175px;
+}
+
+input {
+    width:66% !IMPORTANT;
+    display: block;
+}
+
+select {
+    display: inline-block;
+}
+
+.form-control {
+    border: 1px solid black;
+    border-radius: 0.3em;
+    padding: 0.25rem;
+    width: 7em;
+}
+
+select {
+    margin-left: 0.5rem;
+}
+
+.equals {
+    font-weight: bold;
+    font-size: 2rem;
+    vertical-align: middle;
+}
